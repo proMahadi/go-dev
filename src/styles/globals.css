@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray_9;
+}
+
+.container {
+  @apply max-w-container mx-auto;
+}
+
+.sectionHeading {
+  @apply text-3xl sm:text-4xl lg:text-5xl text-white capitalize;
+}
+
+.sectionHeading-position {
+  @apply top-[-8px] right-[-25px];
+}
+
+.skillCard {
+  @apply w-28 h-[140px] bg-gray_8 hover:bg-transparent rounded-lg border-[#5C616E] border-2 cursor-pointer;
+}
+
+.swiper-slide {
+  width: 100px;
+}
+
+.swiper-wrapper {
+  @apply relative;
+}
+
+.swiper-pagination {
+  @apply absolute top-[0] left-[0];
+}

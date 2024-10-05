@@ -7,10 +7,19 @@ module.exports = {
   ],
   theme: {
     extend: {
+      maxWidth: {
+        'container': '1200px',
+      },
+      colors: {
+        'default': '#2ED573',
+        'primary': '#25AA5C',
+        'gray_8': '#454B58',
+        'gray_9': '#2F3542',
+      },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        bannerBg: "url('/bgs/bannerBg.png')",
+        skillBg: "url('/bgs/skillBg.png')",
+        contactBg: "url('/bgs/bannerBg.png')",
       },
     },
   },
